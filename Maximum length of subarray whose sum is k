@@ -1,0 +1,11 @@
+Code:
+
+while wend<len(arr):
+      s+=arr[we]
+      if(s==k):
+         ans=max(ans,we-ws+1)
+      if(s>k):
+          while(s>k):
+              s-=arr[ws]
+              ws+=1
+      wend+=1        
